@@ -47,7 +47,10 @@ export const ContextProvider = (props) => {
 
     const postTodo=async(TodoData)=>{
         return await axios.post('https://todo-backend-9cdq.onrender.com/create',TodoData,config)
-        .then((res)=>console.log(res))
+        .then((res)=>{
+            console.log(res);
+            document.location.reload();
+        })
         .catch((err)=>{
             console.log(err.response.data.message);
         });

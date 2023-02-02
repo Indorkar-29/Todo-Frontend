@@ -8,12 +8,12 @@ const Header = () => {
   return (
     <div>
         <div className='header'>
-            <p style={{marginRight:"200px"}} >{user}</p>
+            <p style={{marginRight:"150px"}} >{user}</p>
         </div>
         <div className='side'>
             <SideBar/>
         </div>
-        <div>
+        <div className='main-content'>
           <TableNav/>
         </div>
     </div>
