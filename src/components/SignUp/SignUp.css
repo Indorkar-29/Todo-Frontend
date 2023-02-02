@@ -1,0 +1,38 @@
+.register{
+    padding: 10px;
+    font-size: larger;
+    margin-top: 10px;
+}
+
+.main {
+    max-width: max-content;
+    border: 1px solid lightgrey;
+    margin-top: 170px;
+    margin-left: 511px;
+    text-align: center;
+}
+.email {
+    width: 240px;
+    padding: 10px;
+}
+.password {
+    width: 240px;
+    padding: 10px;
+}
+.confirmPass {
+    width: 240px;
+    padding: 10px;
+}
+.submit {
+    padding: 10px 105px 10px 105px;
+}
+input{
+    margin-top: 30px;
+}
+button{
+    margin-top: 30px;
+}
+
+button:hover{
+    cursor: pointer;
+}

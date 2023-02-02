@@ -1,0 +1,41 @@
+.login{
+    padding: 10px;
+    font-size: larger;
+    margin-top: 10px;
+}
+
+.main {
+    max-width: max-content;
+    border: 1px solid lightgrey;
+    margin-top: 170px;
+    margin-left: 511px;
+    text-align: center;
+}
+
+.email {
+    width: 240px;
+    padding: 10px;
+}
+
+.password {
+    width: 240px;
+    padding: 10px;
+}
+
+.logBtn {
+    margin-top: 30px;
+    padding: 10px 115px 10px 115px;
+}
+
+.reg {
+    padding: 10px 110px 10px 110px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+input{
+    margin-top: 30px;
+}
+button:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.sideBar {
+    max-width: 270px;
+    text-align: center;
+    height: 100vh;
+    background: lightgreen;
+}
+
+.heading {
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: xx-large;
+    color: dodgerblue;
+}
+
+.history {
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.logout {
+    padding-top: 270px;
+    font-weight: bold;
+    font-size: x-large;
+}
+.out:hover {
+    cursor: pointer;
+}
